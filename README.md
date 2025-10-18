@@ -5,5 +5,6 @@
 - 📫 Would like to reach out? You can do it through [LinkedIn](https://www.linkedin.com/in/ga%C5%A1pr-hace-71a912250/) it might take 3-5 business days... 
 - ⚡ Joke of the day: 
     <!--START_DYNAMIC-->
-    <!--END_DYNAMIC-->
+famous artist
+<!--END_DYNAMIC-->
 
