@@ -23,7 +23,7 @@ def generate_dynamic_section() -> str:
     """Generate the dynamic section with current time and joke."""
     current_time = datetime.datetime.now().strftime(f"%d-%m-%Y %H:%M:%S") 
     joke = fetch_ai_joke()
-    return f"###Joke of the day: _{joke}_\n  ✨ Auto-updated Info\n🕒 Updated on: **{current_time}**  \n💬 Come tomorrow for a new one ☝️"
+    return f"_{joke}_\n  ✨ Auto-updated Info\n🕒 Updated on: **{current_time}**  \n💬 Come tomorrow for a new one ☝️"
 
 def update_readme():
     start_marker = "<!--START_DYNAMIC-->"
