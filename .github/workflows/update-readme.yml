@@ -19,7 +19,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install openai==0.28
+        run: pip install openai
 
       - name: Run update script
         env:
