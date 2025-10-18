@@ -33,5 +33,6 @@ jobs:
           else
             git commit -m "🔄 Auto-update README"
             git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          fi
 
 
