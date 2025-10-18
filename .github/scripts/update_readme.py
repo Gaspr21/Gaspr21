@@ -2,7 +2,7 @@ import datetime
 import re
 
 
-README_PATH = "./README.md"
+README_PATH = ".../README.md"
 
 def GenerateAJoke():
     # generate a joke automatically using ai
