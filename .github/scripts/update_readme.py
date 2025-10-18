@@ -21,7 +21,7 @@ def fetch_ai_joke() -> str:
     openai.api_key = api_key
 
     response = openai.chat.completions.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "You are a witty joke-telling assistant."},
             {"role": "user", "content": "Tell me a short, funny programmer joke."}
@@ -36,7 +36,7 @@ def generate_dynamic_section() -> str:
     """Generate the dynamic section with current time and joke."""
     current_time = datetime.datetime.now().strftime(f"%d-%m-%Y %H:%M:%S") 
     joke = fetch_ai_joke()
-    return f"_{joke}_\n  ✨ Auto-updated Info\n🕒 Updated on: **{current_time}**  \n💬 Come tomorrow for a new one ☝️"
+    return f"_{joke}_ \n  ✨ Auto-updated Info\n🕒 Updated on: **{current_time}**  \n💬 Come tomorrow for a new one ☝️"
 
 def update_readme():
     """Updates the README file with the new dynamic section."""
