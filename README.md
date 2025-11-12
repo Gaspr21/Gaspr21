@@ -7,8 +7,5 @@
 - ⚡ Joke of the day: 
     <!--START_DYNAMIC-->
 _Why did the programmer quit his job? Because he didn't get arrays._
-  ✨ Auto-updated Info
-🕒 Updated on: **18-10-2025 19:35:02**  
-💬 Come tomorrow for a new one ☝️
 <!--END_DYNAMIC-->
 
